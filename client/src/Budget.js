@@ -40,7 +40,7 @@ function Budget() {
         {isLogged ? <>
             <Container className="my-4">
                 <Stack direction="horizontal" gap="2" className="mb-4">
-                    <h1 className="me-auto text-warning" >My Budget</h1>
+                    <h1 className="me-auto text-primary" >My Budget</h1>
                     {/* Add Budget Button and opens Budget modal */}
                     {/* variant = black button */}
                     <Button variant="primary" onClick={() => setshowAddBudgetWindow(true)}>
